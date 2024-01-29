@@ -22,13 +22,13 @@
   <!-- Main Content -->
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-      <div class="container ms-3">
+      <div class="container ms-10">
         <!-- Left-aligned image and text -->
         <div class="d-flex align-items-center">
           <img
             src="img/management.png"
             alt="Rawa"
-            style="width: 100px"
+            style="width: 75px"
             class="mr-2"
           />
           <a class="navbar-brand ml-0" href="#">Rawa Dara</a>
@@ -39,52 +39,42 @@
     <!-- Footer Section -->
     <footer class="bg-dark text-white text-center mt-4 fixed-bottom">
       <div class="container">
-        <div class="row">
-          <!-- CONTACT US FOOTER -->
-          <div class="col-md-4 mb-4 d-flex justify-content-center">
-            <div class="row">
-              <div class="col-sm-6">
-                <a
-                  target="_blank"
-                  href="https://api.whatsapp.com/send?phone=9647701732539&amp;text=Hi"
-                  class="text-white text-decoration-none"
+        <!-- CONTACT US FOOTER -->
+        <div class="row mb-1 justify-content-center">
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-2">
+            <div class="d-flex flex-column align-items-center justify-content-between">
+              <a
+                target="_blank"
+                href="https://api.whatsapp.com/send?phone=9647701732539&amp;text=Hi"
+                class="text-white text-decoration-none mb-2"
+              >
+                <button class="btn btn-outline-success">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </button>
+              </a>
+              <a
+                target="_blank"
+                href="https://github.com/RawaQIU?tab=overview&from=2024-01-01&to=2024-01-29"
+                class="text-white text-decoration-none mb-2"
+              >
+                <button class="btn btn-outline-light">
+                  <i class="fa-brands fa-github"></i>
+                </button>
+              </a>
+              <a href="#" class="text-white text-decoration-none mb-2">
+                <button class="btn btn-outline-warning">
+                  <i class="fa-brands fa-instagram"></i>
+                </button>
+              </a>
+              <div class="copy-container mb-2">
+                <button
+                  class="btn btn-outline-light"
+                  onclick="copyToClipboard()"
+                  id="copyButton"
                 >
-                  <button class="btn btn-outline-success">
-                    <i class="fa-brands fa-whatsapp"></i>
-                  </button>
-                </a>
-              </div>
-              <div class="col-sm-6">
-                <a
-                  target="_blank"
-                  href="https://github.com/RawaQIU?tab=overview&from=2024-01-01&to=2024-01-29"
-                  class="text-white text-decoration-none"
-                >
-                  <button class="btn btn-outline-light">
-                    <i class="fa-brands fa-github"></i>
-                  </button>
-                </a>
-              </div>
-            </div>
-            <div class="row mt-2">
-              <div class="col-sm-6">
-                <a href="#" class="text-white text-decoration-none">
-                  <button class="btn btn-outline-warning">
-                    <i class="fa-brands fa-instagram"></i>
-                  </button>
-                </a>
-              </div>
-              <div class="col-sm-6">
-                <div class="copy-container">
-                  <button
-                    class="btn btn-outline-light"
-                    onclick="copyToClipboard()"
-                    id="copyButton"
-                  >
-                    <i class="fa-regular fa-envelope"></i>
-                  </button>
-                  <div class="copy-message">Email Copied</div>
-                </div>
+                  <i class="fa-regular fa-envelope"></i>
+                </button>
+                <div class="copy-message">Email Copied</div>
               </div>
             </div>
           </div>
