@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -40,57 +41,55 @@
       <div class="container">
         <div class="row">
           <!-- CONTACT US FOOTER -->
-          <div class="col-md-4 mb-4 mt-4">
-            <div class="d-flex justify-content-end">
-              <div class="">
-                <i class="fa-solid fa-phone-volume"></i>
-                <p class="ml-2 mt-2">0770 173 2539</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- FOLLOW US FOOTER -->
-          <div class="col-md-4 mb-4 mt-7">
-            <div class="d-flex justify-content-around">
-              <p class="text-white text-decoration-none">
-                <a href="#" class="text-white text-decoration-none"
-                  ><i class="fa-brands fa-facebook-f"></i
-                ></a>
-              </p>
-              <p class="text-white text-decoration-none">
+          <div class="col-md-4 mb-4 d-flex justify-content-center">
+            <div class="row">
+              <div class="col-sm-6">
                 <a
                   target="_blank"
-                  href="https://www.instagram.com/danamods/"
+                  href="https://api.whatsapp.com/send?phone=9647701732539&amp;text=Hi"
                   class="text-white text-decoration-none"
-                  ><i class="fa-brands fa-instagram"></i
-                ></a>
-              </p>
-              <p class="text-white text-decoration-none">
-                <a href="#" class="text-white text-decoration-none"
-                  ><i class="fa-brands fa-tiktok"></i
-                ></a>
-              </p>
-              <p class="text-white text-decoration-none">
-                <a href="#" class="text-white text-decoration-none"
-                  ><i class="fa-brands fa-x-twitter"></i
-                ></a>
-              </p>
+                >
+                  <button class="btn btn-outline-success">
+                    <i class="fa-brands fa-whatsapp"></i>
+                  </button>
+                </a>
+              </div>
+              <div class="col-sm-6">
+                <a
+                  target="_blank"
+                  href="https://github.com/RawaQIU?tab=overview&from=2024-01-01&to=2024-01-29"
+                  class="text-white text-decoration-none"
+                >
+                  <button class="btn btn-outline-light">
+                    <i class="fa-brands fa-github"></i>
+                  </button>
+                </a>
+              </div>
             </div>
-          </div>
-
-          <!-- EMAIL FOOTER -->
-          <div class="col-md-4 mb-4 mt-4">
-            <div class="d-flex justify-content-start">
-              <div class="">
-                <i class="fa-regular fa-envelope"></i>
-                <p class="mt-2">info@noblerawa.com</p>
+            <div class="row mt-2">
+              <div class="col-sm-6">
+                <a href="#" class="text-white text-decoration-none">
+                  <button class="btn btn-outline-warning">
+                    <i class="fa-brands fa-instagram"></i>
+                  </button>
+                </a>
+              </div>
+              <div class="col-sm-6">
+                <div class="copy-container">
+                  <button
+                    class="btn btn-outline-light"
+                    onclick="copyToClipboard()"
+                    id="copyButton"
+                  >
+                    <i class="fa-regular fa-envelope"></i>
+                  </button>
+                  <div class="copy-message">Email Copied</div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-
         <hr class="mb-4" />
-
         <div class="row justify-content-center">
           <div class="col-md-7 col-lg-8">
             <p class="text-center">
@@ -103,6 +102,8 @@
         </div>
       </div>
     </footer>
+
+    <script src="main.js"></script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
