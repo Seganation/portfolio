@@ -97,13 +97,6 @@ main {
   padding-bottom: 100px; /* Adjust for footer height */
 }
 
-.portfolio-section {
-  position: relative;
-}
-
-.portfolio-heading {
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin: 20px;
+.cards {
+  border-radius: 25px;
 }
