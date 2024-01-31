@@ -1,7 +1,7 @@
 // main.js
 
 function copyToClipboard() {
-  const textToCopy = "rdqiu230196@uniq.edu.iq"; // Replace with the actual email address
+  const textToCopy = "Mamosa HAck kray 400$.exe"; // Replace with the actual email address
 
   const tempInput = document.createElement("input");
   tempInput.value = textToCopy;
@@ -18,4 +18,3 @@ function copyToClipboard() {
     copyContainer.classList.remove("clicked");
   }, 2000);
 }
-s
