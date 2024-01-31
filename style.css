@@ -1,3 +1,48 @@
+.box {
+  background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+  margin-right: 100px;
+  border-radius: 25px;
+
+}
+.image {
+  border-radius: 25px;
+}
+
+#carouselExampleIndicators {
+  width: 70%; /* Set your desired fixed width */
+  margin: auto;
+}
+
+.carousel-inner {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  height: 400px; /* Set your desired fixed height */
+}
+
+.carousel-inner .carousel-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; /* Ensure each item takes up the full width */
+  transition: transform 1s ease-in-out;
+}
+
+.carousel-inner .carousel-item.active {
+  transform: translateX(0%);
+}
+
+.carousel-inner .carousel-item:not(.active) {
+  transform: translateX(100%);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px;
+  max-width: none;
+  z-index: 1;
+}
+
 .copy-container {
   position: relative;
   display: inline-block;
