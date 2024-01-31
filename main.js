@@ -1,7 +1,7 @@
 // main.js
 
 function copyToClipboard() {
-  const textToCopy = "your@email.com"; // Replace with the actual email address
+  const textToCopy = "rdqiu230196@uniq.edu.iq"; // Replace with the actual email address
 
   const tempInput = document.createElement("input");
   tempInput.value = textToCopy;
