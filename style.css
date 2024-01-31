@@ -23,5 +23,24 @@
 }
 
 .fa-brands {
-  size: 20px;
+  font-size: 20px; /* Adjust size as needed */
+}
+
+/* Apply flex layout to the container */
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-item {
+  margin: 0 10px; /* Adjust margins as needed */
+}
+
+.btn {
+  /* Add any necessary button styles */
+}
+
+.footer-copyright {
+  /* Add styles for the copyright text */
 }
