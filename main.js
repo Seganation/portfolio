@@ -30,13 +30,14 @@ function darkMode() {
 
   if (isDarkMode) {
     document.body.style.backgroundColor = "#142B50";
-    darkModeIcon.style.display = "none";
-    lightModeIcon.style.display = "inline";
+    darkModeIcon.style.display = "inline";
+    lightModeIcon.style.display = "none";
     // Add your dark mode styles or functionality here
   } else {
     document.body.style.backgroundColor = "whitesmoke";
-    darkModeIcon.style.display = "inline";
-    lightModeIcon.style.display = "none";
+    darkModeIcon.style.display = "none";
+    lightModeIcon.style.display = "inline";
+    
     // Add your light mode styles or functionality here
   }
 }
