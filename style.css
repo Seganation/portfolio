@@ -41,11 +41,6 @@
   z-index: 1;
 }
 
-.copy-container {
-  position: relative;
-  display: inline-block;
-}
-
 .copy-message {
   position: relative;
   bottom: 0;
@@ -72,29 +67,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.footer-item {
-  margin: 0 10px; /* Adjust margins as needed */
-}
-
-.btn {
-  /* Add any necessary button styles */
-}
-
-.footer-copyright {
-  /* Add styles for the copyright text */
-}
-
-.content-wrapper {
-  min-height: calc(100vh - 56px); /* Adjust for navbar height */
-  display: flex;
-  flex-direction: column;
-}
-
-main {
-  flex: 1;
-  padding-bottom: 100px; /* Adjust for footer height */
 }
 
 .cards {
