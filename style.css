@@ -69,6 +69,25 @@
   align-items: center;
 }
 
-.cards {
-  border-radius: 25px;
+.PosterImg {
+  height: 250px;
+}
+
+.cardImg {
+  height: 250px;
+}
+
+.Port {
+  border-radius: 15px;
+}
+.Email {
+  color: #fff;
+}
+
+.Email:hover {
+  color: #fff;
+}
+
+.Email:active {
+  color: #fff;
 }
