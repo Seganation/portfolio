@@ -39,7 +39,6 @@
   font-weight: bold !important;
 }
 
-
 .carousel-control-prev,
 .carousel-control-next {
   width: 50px;
@@ -79,12 +78,9 @@
   height: 250px;
 }
 
-card {
-  border:100px solid rebeccapurple;
-}
-
 .cardImg {
   height: 250px;
+  margin-top: 15px;
 }
 
 .Port {

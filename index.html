@@ -21,6 +21,7 @@
   <!-- Main Content -->
   <body>
     <nav
+      style="width: 100%"
       class="navbar navbar-expand-lg navbar-light bg-dark sticky-top rounded-3"
     >
       <div class="container ms-10">
@@ -133,6 +134,7 @@
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img
+                    style="object-fit: contain"
                     src="img/Poster.jpg"
                     class="PosterImg d-block w-100 image"
                     alt="Slide 1"
@@ -192,22 +194,24 @@
       </section>
 
       <!-- Second Section -->
-      <section class="portfolio-section text-center">
-        <div
-          class="card-container d-flex justify-content-center mt-5 mb-5 gap-4 flex-sm-row flex-column"
-        >
+      <section class="mt-4 container-fluid">
+        <div class="row">
           <div
-            class="card mx-auto"
+            class="card rounded-5 col-md-4 col-lg-4 col-xl-3 mx-auto mt-3"
             style="
-              width: 25rem;
               background-image: linear-gradient(
                 to right,
                 #868f96 0%,
                 #596164 100%
               );
+              width: 22rem;
             "
           >
-            <img src="img/3.jpg" class="cardImg card-img-top" alt="..." />
+            <img
+              src="img/3.jpg"
+              class="cardImg card-img-top rounded-5"
+              alt="..."
+            />
             <div class="card-body d-flex flex-column">
               <h1 class="card-title">Sitak</h1>
               <p class="card-text fw-bolder text-white">Baxakay Dr.Ako</p>
@@ -217,7 +221,7 @@
                 data-bs-toggle="modal"
                 data-bs-target="#viewModal1"
               >
-                View<i class="fa-regular fa-eye" style="margin-left: 5px"></i>
+                View <i class="fa-regular fa-eye" style="margin-left: 5px"></i>
               </button>
               <a
                 href="img/3.jpg"
@@ -230,20 +234,21 @@
           </div>
 
           <div
-            class="card mx-auto"
+            class="card rounded-5 col-md-4 col-lg-4 col-xl-3 mx-auto mt-3"
             style="
-              width: 25rem;
               background-image: linear-gradient(
                 to right,
                 #868f96 0%,
                 #596164 100%
               );
+              width: 22rem;
             "
           >
             <img
               src="img/Poster.jpg"
-              class="card-img-top cardImg PosterImg"
+              class="card-img-top cardImg PosterImg rounded-5"
               alt="..."
+              style="object-fit: cover"
             />
             <div class="card-body d-flex flex-column">
               <h1 class="card-title">Poster</h1>
@@ -279,22 +284,25 @@
                 Download
                 <i class="fas fa-download" style="margin-left: 5px"></i>
               </a>
-              <!-- "Prepared By" dropdown -->
             </div>
           </div>
 
           <div
-            class="card mx-auto"
+            class="card rounded-5 col-md-4 col-lg-4 col-xl-3 mx-auto mt-3"
             style="
-              width: 25rem;
               background-image: linear-gradient(
                 to right,
                 #868f96 0%,
                 #596164 100%
               );
+              width: 22rem;
             "
           >
-            <img src="img/Mendel.jpg" class="cardImg card-img-top" alt="..." />
+            <img
+              src="img/Mendel.jpg"
+              class="cardImg card-img-top rounded-5"
+              alt="..."
+            />
             <div class="card-body d-flex flex-column">
               <h1 class="card-title">Slemani</h1>
               <p class="card-text text-white fw-bolder">Baxakay Mendel</p>
@@ -304,7 +312,7 @@
                 data-bs-toggle="modal"
                 data-bs-target="#viewModal3"
               >
-                View<i class="fa-regular fa-eye" style="margin-left: 5px"></i>
+                View <i class="fa-regular fa-eye" style="margin-left: 5px"></i>
               </button>
               <a
                 href="img/Mendel.jpg"
@@ -325,7 +333,9 @@
           aria-labelledby="viewModalLabel1"
           aria-hidden="true"
         >
-          <div class="modal-dialog modal-lg">
+          <div
+            class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg"
+          >
             <div class="modal-content">
               <div class="modal-header">
                 <h5 class="modal-title" id="viewModalLabel1">Hi ...Im Image</h5>
@@ -350,7 +360,9 @@
           aria-labelledby="viewModalLabel2"
           aria-hidden="true"
         >
-          <div class="modal-dialog modal-lg">
+          <div
+            class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg"
+          >
             <div class="modal-content">
               <div class="modal-header">
                 <h5 class="modal-title" id="viewModalLabel2">Hi ...Im Image</h5>
@@ -375,7 +387,9 @@
           aria-labelledby="viewModalLabel3"
           aria-hidden="true"
         >
-          <div class="modal-dialog modal-lg">
+          <div
+            class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg"
+          >
             <div class="modal-content">
               <div class="modal-header">
                 <h5 class="modal-title" id="viewModalLabel3">Hi ...Im Image</h5>
