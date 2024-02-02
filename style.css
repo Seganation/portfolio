@@ -34,6 +34,12 @@
   transform: translateX(100%);
 }
 
+/* Add this style to your existing CSS */
+.btn-bold {
+  font-weight: bold !important;
+}
+
+
 .carousel-control-prev,
 .carousel-control-next {
   width: 50px;
