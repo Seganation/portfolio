@@ -80,14 +80,7 @@
 .Port {
   border-radius: 15px;
 }
-.Email {
-  color: #fff;
-}
 
-.Email:hover {
-  color: #fff;
-}
-
-.Email:active {
+.email-text {
   color: #fff;
 }
