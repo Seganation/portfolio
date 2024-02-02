@@ -79,6 +79,10 @@
   height: 250px;
 }
 
+card {
+  border:100px solid rebeccapurple;
+}
+
 .cardImg {
   height: 250px;
 }
@@ -89,4 +93,11 @@
 
 .email-text {
   color: #fff;
+}
+.Qaiwan {
+  width: 100px;
+}
+
+.Qaiwan2 {
+  width: 150px;
 }
